@@ -14,6 +14,6 @@ entries:
     name: helm-charts
     type: application
     urls:
-    - https://github.com/abhishek44sharma/aegis/helm-chart-test/helm-charts-0.1.0.tgz
+    - https://github.com/abhishek44sharma/aegis/test-helm-chart/helm-charts-0.1.0.tgz
     version: 0.1.0
 generated: "2023-07-21T01:07:33.809263+05:30"
