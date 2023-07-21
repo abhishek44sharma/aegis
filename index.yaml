@@ -3,17 +3,17 @@ entries:
   helm-charts:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-21T19:59:16.018037+05:30"
+    created: "2023-07-22T00:14:12.853589+05:30"
     dependencies:
     - condition: deploySpire
       name: spire
       repository: file://charts/spire
       version: 0.1.0
     description: A Helm chart for Kubernetes
-    digest: a51a014f63bf8c54ad1b8e45d251fef316175066b86afa1d6c8af62f2fafc968
+    digest: a2b567363b551408cb7e5510fdcdc66ad4092a79b9da76186efdfa56009ad3f8
     name: helm-charts
     type: application
     urls:
     - helm-charts-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-21T19:59:16.015492+05:30"
+generated: "2023-07-22T00:14:12.851804+05:30"
