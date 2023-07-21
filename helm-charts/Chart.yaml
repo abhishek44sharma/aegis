@@ -27,4 +27,4 @@ dependencies:
   - name: spire
     repository: file://charts/spire
     version: 0.1.0
-    condition: deploySpire
+    condition: global.deploySpire
