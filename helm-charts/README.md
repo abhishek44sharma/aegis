@@ -22,13 +22,13 @@ To use Aegis, follow the steps below:
 
 The following options can be passed to the `helm install` command to set global variables:
 
-- `--set deploySpire=<true/false>`: This flag can be passed to install or skip Spire.
-- `--set platform=<istanbul/istanbul-fips/photon/photos-fips>`: This flag can be passed to install Aegis with the given platform Docker image.
+- `--set global.deploySpire=<true/false>`: This flag can be passed to install or skip Spire.
+- `--set global.platform=<istanbul/istanbul-fips/photon/photos-fips>`: This flag can be passed to install Aegis with the given platform Docker image.
 
 Here's an example command with the above options:
 
 ```bash
-helm install aegis aegis/helm-charts --version 0.1.0 --set deploySpire=true --set platform=istanbul
+helm install aegis aegis/helm-charts --version 0.1.0 --set global.deploySpire=true --set global.platform=istanbul
 ```
 
 Make sure to replace `<true/false>` and `<istanbul/istanbul-fips/photon/photos-fips>` with the desired values.
